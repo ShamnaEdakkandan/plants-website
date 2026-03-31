@@ -1,127 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Plant Fashion</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Fashion 3D</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="hero">
 
-        <div class="glass-card">
-
-            <div class="navbar">
-                <h2 class="logo">PlantFashion</h2>
-                <ul>
-                    <li>Plant Shop</li>
-                    <li>Inspirations</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-
-            <div class="content">
-                <div class="text">
-                    <h1>Find the perfect complement to your room</h1>
-                    <p>
-                        We will help you find plants that match your needs and style.
-                        Check our offer in the store and surround yourself with greenery.
-                    </p>
-                    <button>Buy now</button>
-                </div>
-
-                <div class="image">
-                    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="plant">
-                </div>
-            </div>
-
-        </div>
+<div class="hero">
+  <div class="glass-card">
+    <div class="navbar">
+      <h2>PlantFashion</h2>
+      <ul>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
     </div>
-    <section class="featured">
-        <h2>Our Plants Collection</h2>
 
-        <div class="cards">
+    <div class="content">
+      <div class="text">
+        <h1>Bring Nature Into Your Space</h1>
+        <p>Discover beautiful plants that transform your home into a green paradise.</p>
+        <button onclick="location.href='#shop'">Shop Now</button>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&q=80&w=1000">
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div class="card">
-                <img src="plantone.jpg">
-                <div class="card-info">
-                    <h3>Monstera Deliciosa</h3>
-                    <p>Perfect for modern interiors</p>
-                    <span>₹499</span>
-                    <button>Buy Now</button>
-                </div>
-            </div>
+<section class="featured" id="shop">
+  <h2>Our Plants</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="plantone.jpg">
+      <div class="card-info">
+        <h3>Monstera</h3>
+        <p>Modern interiors</p>
+        <button>Buy</button>
+      </div>
+    </div>
 
-            <div class="card">
-                <img src="planttwo.jpg">
-                <div class="card-info">
-                    <h3>Snake Plant</h3>
-                    <p>Low maintenance beauty</p>
-                    <span>₹299</span>
-                    <button>Buy Now</button>
-                </div>
-            </div>
+    <div class="card">
+      <img src="planttwo.jpg">
+      <div class="card-info">
+        <h3>Snake Plant</h3>
+        <p>Low maintenance</p>
+        <button>Buy</button>
+      </div>
+    </div>
 
-            <div class="card">
-                <img src="plantfour.jpg">
-                <div class="card-info">
-                    <h3>Peace Lily</h3>
-                    <p>Fresh air & elegance</p>
-                    <span>₹399</span>
-                    <button>Buy Now</button>
-                </div>
-            </div>
+    <div class="card">
+      <img src="plantfour.jpg">
+      <div class="card-info">
+        <h3>Peace Lily</h3>
+        <p>Elegant look</p>
+        <button>Buy</button>
+      </div>
+    </div>
+  </div>
+</section>
 
-        </div>
-    </section>
+<section class="testimonials" id="testimonials">
+  <h2>What People Say</h2>
+  <div class="testimonial-container">
+    <div class="testimonial-card">
+      <p>"Amazing quality plants!"</p>
+      <h4>- Aisha</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"Fast delivery & fresh plants"</p>
+      <h4>- Rahul</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"Loved the collection"</p>
+      <h4>- Meera</h4>
+    </div>
+  </div>
+</section>
 
-    <section class="categories">
-        <h2>Browse Categories</h2>
 
-        <div class="category-grid">
-            <div class="cat">
-                <h3>Indoor Plants</h3>
-            </div>
-            <div class="cat">
-                <h3>Outdoor Plants</h3>
-            </div>
-            <div class="cat">
-                <h3>Succulents</h3>
-            </div>
-            <div class="cat">
-                <h3>Decor Pots</h3>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <h2>What People Say</h2>
-
-        <div class="testimonial-container">
-            <div class="testimonial-card">
-                <p>"Absolutely love the plants! My home feels alive now."</p>
-                <h4>- Aisha</h4>
-            </div>
-
-            <div class="testimonial-card">
-                <p>"Great quality and fast delivery. Highly recommend!"</p>
-                <h4>- Rahul</h4>
-            </div>
-
-            <div class="testimonial-card">
-                <p>"Beautiful collection and easy to maintain plants."</p>
-                <h4>- Meera</h4>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <h2>PlantFashion</h2>
-        <p>Bring nature into your home 🌿</p>
-    </footer>
+<footer id="about">
+  <h2>PlantFashion</h2>
+  <p>Bring nature into your home 🌿</p>
+</footer>
 
 </body>
-
 </html>
